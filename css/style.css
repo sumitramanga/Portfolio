@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
 .navBar {
   background-color: pink;
   /* opacity:0.2;  */
@@ -15,13 +20,18 @@
 .menuList {
   padding-left: 1em;
   padding-top: 1.3em; }
-
-.menuItem {
-  cursor: pointer;
-  font-family: 'Oswald', sans-serif;
-  list-style: none;
-  padding: 1em;
-  text-transform: uppercase; }
+  .menuList .menuItem {
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    list-style: none;
+    padding: 1em;
+    text-transform: uppercase; }
+  .menuList .mainli {
+    font-weight: 600; }
+  .menuList .projMenuItem {
+    padding-bottom: 0; }
+  .menuList .ddIcon {
+    padding-left: 0.5em; }
 
 .menuLink {
   color: black; }
@@ -33,45 +43,31 @@
 .menuLinkSel {
   color: pink; }
 
-.mainli {
-  font-weight: 600; }
-
-.projMenuItem {
-  padding-bottom: 0; }
-
-.ddIcon {
-  padding-left: 0.5em; }
-
 .dropDownProjects {
   display: none; }
+  .dropDownProjects .innerMenu {
+    padding-left: 0;
+    font-weight: 300; }
 
-.innerMenu {
-  padding-left: 0;
-  font-weight: 300; }
-
-/* ------------------------ */
+/* NAV ICON */
 .navIcon {
   display: inline-block;
   cursor: pointer; }
-
-.bar1, .bar2, .bar3 {
-  width: 30px;
-  height: 3px;
-  background-color: #333;
-  margin: 6px 0;
-  transition: 0.4s;
-  border-radius: 2em; }
-
-.change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
-  transform: rotate(-45deg) translate(-6px, 6px); }
-
-.change .bar2 {
-  opacity: 0; }
-
-.change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-6px, -7px);
-  transform: rotate(45deg) translate(-6px, -7px); }
+  .navIcon .bar1, .navIcon .bar2, .navIcon .bar3 {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+    border-radius: 2em; }
+  .navIcon .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px); }
+  .navIcon .change .bar2 {
+    opacity: 0; }
+  .navIcon .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -7px);
+    transform: rotate(45deg) translate(-6px, -7px); }
 
 .copyright {
   font-family: 'Quicksand', sans-serif;

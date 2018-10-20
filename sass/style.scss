@@ -1,3 +1,11 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+// NAVIGATION ------------------------------------------------------------------
+
 .navBar {
 	background-color: pink;
 	/* opacity:0.2;  */
@@ -18,14 +26,22 @@
 .menuList {
 	padding-left: 1em;
 	padding-top: 1.3em;
-}
-
-.menuItem {
-	cursor: pointer;
-	font-family: 'Oswald', sans-serif;
-	list-style: none;
-	padding: 1em;
-	text-transform: uppercase;
+	.menuItem {
+		cursor: pointer;
+		font-family: 'Oswald', sans-serif;
+		list-style: none;
+		padding: 1em;
+		text-transform: uppercase;
+	}
+	.mainli {
+		font-weight: 600;
+	}
+	.projMenuItem {
+		padding-bottom: 0;
+	}
+	.ddIcon {
+		padding-left: 0.5em;
+	}
 }
 
 .menuLink {
@@ -41,55 +57,42 @@
 	color: pink;
 }
 
-.mainli {
-	font-weight: 600;
-}
-
-.projMenuItem {
-	padding-bottom: 0;
-}
-
-.ddIcon {
-	padding-left: 0.5em;
-}
-
 .dropDownProjects{
 	display: none;
+	.innerMenu {
+		padding-left: 0;
+		font-weight: 300;
+	}
 }
 
-.innerMenu {
-	padding-left: 0;
-	font-weight: 300;
-}
-
-/* ------------------------ */
+/* NAV ICON */
 
 .navIcon {
 	display: inline-block;
 	cursor: pointer;
+
+	.bar1, .bar2, .bar3 {
+		width: 30px;
+		height: 3px;
+		background-color: #333;
+		margin: 6px 0;
+		transition: 0.4s;
+		border-radius: 2em;
+	}
+	.change .bar1 {
+		-webkit-transform: rotate(-45deg) translate(-6px, 6px);
+		transform: rotate(-45deg) translate(-6px, 6px);
+	}
+	.change .bar2 {
+		opacity: 0;
+	}
+	.change .bar3 {
+		-webkit-transform: rotate(45deg) translate(-6px, -7px);
+		transform: rotate(45deg) translate(-6px, -7px);
+	}
 }
 
-.bar1, .bar2, .bar3 {
-	width: 30px;
-	height: 3px;
-	background-color: #333;
-	margin: 6px 0;
-	transition: 0.4s;
-	border-radius: 2em;
-}
-
-.change .bar1 {
-	-webkit-transform: rotate(-45deg) translate(-6px, 6px);
-	transform: rotate(-45deg) translate(-6px, 6px);
-}
-
-.change .bar2 {opacity: 0;}
-
-.change .bar3 {
-	-webkit-transform: rotate(45deg) translate(-6px, -7px);
-	transform: rotate(45deg) translate(-6px, -7px);
-}
-
+// FOOTER ----------------------------------------------------------------------
 .copyright {
 font-family: 'Quicksand', sans-serif;
 text-transform: uppercase;
