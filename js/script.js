@@ -1,6 +1,4 @@
-function myFunction(x) {
-	x.classList.toggle("change");
-}
+var navIcon = document.getElementById("navIcon");
 
 $(".projMenuItem").click(function(){
 	$(".dropDownProjects").toggle();
@@ -8,4 +6,8 @@ $(".projMenuItem").click(function(){
 
 $(".navIcon").click(function(){
 	$(".menuWrapper").toggle();
+});
+
+$(".navIcon").click(function(){
+	navIcon.classList.toggle("change");
 });
