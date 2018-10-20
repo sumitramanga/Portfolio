@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Wreath", cursive;
+  src: url("fonts/wreath-half-tone-regular.woff"); }
+
 * {
   padding: 0;
   margin: 0;
@@ -37,22 +41,22 @@
   color: black; }
 
 .menuLink:hover, .projMenuItem:hover {
-  text-decoration: none;
-  color: grey; }
+  color: #656B75;
+  text-decoration: none; }
 
 .menuLinkSel {
-  color: pink; }
+  color: #F2C8BC; }
 
 .dropDownProjects {
   display: none; }
   .dropDownProjects .innerMenu {
-    padding-left: 0;
-    font-weight: 300; }
+    font-weight: 300;
+    padding-left: 0; }
 
 /* NAV ICON */
 .navIcon {
-  display: inline-block;
-  cursor: pointer; }
+  cursor: pointer;
+  display: inline-block; }
   .navIcon .bar1, .navIcon .bar2, .navIcon .bar3 {
     width: 30px;
     height: 3px;
@@ -72,8 +76,15 @@
   -webkit-transform: rotate(45deg) translate(-6px, -7px);
   transform: rotate(45deg) translate(-6px, -7px); }
 
-.copyright {
-  font-family: 'Quicksand', sans-serif;
-  text-transform: uppercase;
-  font-size: 0.7em;
-  text-align: center; }
+.footer {
+  margin: 1.3em 0; }
+  .footer .socialIcons {
+    text-align: center; }
+    .footer .socialIcons .socialLink {
+      color: #656B75;
+      font-size: 1.1em; }
+  .footer .copyright {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.7em;
+    text-align: center;
+    text-transform: uppercase; }

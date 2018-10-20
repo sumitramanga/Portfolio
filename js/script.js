@@ -1,5 +1,3 @@
-var navIcon = document.getElementById("navIcon");
-
 $(".projMenuItem").click(function(){
 	$(".dropDownProjects").toggle();
 });
