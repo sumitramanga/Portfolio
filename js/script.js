@@ -1,3 +1,10 @@
+// $(window).load(function (){
+// 	$("#div1").fadeIn();
+// 	$("#div2").fadeIn("slow");
+// 	$("#div3").fadeIn(3000);
+// });
+
+
 $(".projMenuItem").click(function(){
 	$(".dropDownProjects").toggle();
 });
@@ -15,3 +22,9 @@ $('.scrollDownBtn').click(function(){
 		scrollTop: $(".featured").offset().top
 	}, 3000);
 });
+
+// var duration = anime({
+//   targets: '#duration .el',
+//   translateY: -50,
+//   duration: 3000
+// });
