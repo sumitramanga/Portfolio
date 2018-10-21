@@ -1,6 +1,8 @@
 @font-face {
-  font-family: "Wreath", cursive;
-  src: url("webfonts/wreath-half-tone-regular.woff"); }
+  font-family: 'Wreath Halft One Regular';
+  src: url("../webfonts/wreath-half-tone-regular.woff2") format("woff2"), url("../webfonts/wreath-half-tone-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
 
 * {
   padding: 0;
@@ -70,7 +72,7 @@
   .navIcon .bar1, .navIcon .bar2, .navIcon .bar3 {
     width: 30px;
     height: 3px;
-    background-color: #333;
+    background-color: white;
     margin: 6px 0;
     transition: 0.4s;
     border-radius: 2em; }
@@ -158,10 +160,32 @@
   text-transform: uppercase;
   width: 62vw; }
 
+.mainHeader {
+  color: #1b1b1b;
+  font-family: "Wreath Halft One Regular", cursive;
+  font-size: 3.3em;
+  line-height: 0.4;
+  margin-top: 1em;
+  text-align: center; }
+
+.hr {
+  border-top: 1px solid #f2c8bc;
+  margin: 1em auto;
+  text-align: center;
+  width: 73%; }
+
+.instaMedia {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  text-align: center; }
+
 .footer {
-  margin: 1.3em 0; }
+  padding: 0 1em;
+  margin: 2.3em 0; }
   .footer .socialIcons {
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 0.4em; }
     .footer .socialIcons .socialLink {
       color: #656B75;
       font-size: 1.1em;
