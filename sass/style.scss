@@ -11,6 +11,13 @@ $bodyFontFamily: 'Quicksand', sans-serif;
 $h1FontFamily: "Wreath", cursive;
 $h2FontFamily: 'Oswald', sans-serif;
 
+@mixin bgImgSetting {
+	background-position: center;
+	background-size: cover;
+	height: 36vh;
+}
+
+
 // h1 = script
 // h2 = oswald
 // h3 = bold Quicksand
@@ -23,19 +30,30 @@ $h2FontFamily: 'Oswald', sans-serif;
 
 // NAVIGATION ------------------------------------------------------------------
 
+.nav {
+	position: fixed;
+	width: 100vw;
+	z-index: 1080;
+}
+
 .navBar {
-	background-color: pink;
+	background-color: $primaryColor;
 	/* opacity:0.2;  */
 	padding: 0.7em 1.2em;
 	width: 100%;
 }
 
 .navlogo {
+	background-image: url('../img/logo.png');
+	background-position: center;
+	background-size: cover;
 	float: right;
-	font-size: 25px;
+	height: 30px;
+	width: 33px;
 }
 
 .menuWrapper {
+	background-color: white;
 	display: none;
 	width: 100%;
 }
@@ -83,7 +101,6 @@ $h2FontFamily: 'Oswald', sans-serif;
 }
 
 /* NAV ICON */
-
 .navIcon {
 	cursor: pointer;
 	display: inline-block;
@@ -122,7 +139,7 @@ $h2FontFamily: 'Oswald', sans-serif;
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
-	height: 89vh;
+	height: 100vh;
 	justify-content: center;
 }
 
@@ -152,6 +169,49 @@ $h2FontFamily: 'Oswald', sans-serif;
 	margin-top: 1em;
 	text-align: center;
 }
+
+.latestProjSec	{
+	background-image: url("../img/travelCompanion.png");
+	@include bgImgSetting;
+}
+
+.myStorySec {
+	background-image: url("../img/beach-car-lookout.jpg");
+	@include bgImgSetting;
+}
+
+.contactSec {
+	background-image: url("../img/desk.jpeg");
+	@include bgImgSetting;
+}
+
+.centerAlign {
+	align-items: center;
+	display: flex;
+}
+
+.col {
+	margin: 1em 0;
+}
+
+
+.featureBtn {
+	border: 3px solid $tertiaryColor;
+	color: $tertiaryColor;
+	display: block;
+	font-family: "Oswald", sans-serif;
+	font-weight: 600;
+	margin: 0 auto;
+	padding: 1em;
+	text-align: center;
+	text-shadow: -2px 2px $primaryColor;
+	text-transform: uppercase;
+	width: 62vw;
+}
+
+
+
+
 
 // FOOTER ----------------------------------------------------------------------
 

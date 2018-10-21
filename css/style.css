@@ -7,17 +7,27 @@
   margin: 0;
   box-sizing: border-box; }
 
+.nav {
+  position: fixed;
+  width: 100vw;
+  z-index: 1080; }
+
 .navBar {
-  background-color: pink;
+  background-color: #f2c8bc;
   /* opacity:0.2;  */
   padding: 0.7em 1.2em;
   width: 100%; }
 
 .navlogo {
+  background-image: url("../img/logo.png");
+  background-position: center;
+  background-size: cover;
   float: right;
-  font-size: 25px; }
+  height: 30px;
+  width: 33px; }
 
 .menuWrapper {
+  background-color: white;
   display: none;
   width: 100%; }
 
@@ -84,7 +94,7 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
-  height: 89vh;
+  height: 100vh;
   justify-content: center; }
 
 .opacOverlay {
@@ -109,6 +119,44 @@
   font-size: 1.5em;
   margin-top: 1em;
   text-align: center; }
+
+.latestProjSec {
+  background-image: url("../img/travelCompanion.png");
+  background-position: center;
+  background-size: cover;
+  height: 36vh; }
+
+.myStorySec {
+  background-image: url("../img/beach-car-lookout.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 36vh; }
+
+.contactSec {
+  background-image: url("../img/desk.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 36vh; }
+
+.centerAlign {
+  align-items: center;
+  display: flex; }
+
+.col {
+  margin: 1em 0; }
+
+.featureBtn {
+  border: 3px solid #1b1b1b;
+  color: #1b1b1b;
+  display: block;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  margin: 0 auto;
+  padding: 1em;
+  text-align: center;
+  text-shadow: -2px 2px #f2c8bc;
+  text-transform: uppercase;
+  width: 62vw; }
 
 .footer {
   margin: 1.3em 0; }
