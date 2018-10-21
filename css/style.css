@@ -118,6 +118,7 @@
 
 .scrollDownBtn {
   color: #f2c8bc;
+  cursor: pointer;
   font-size: 1.5em;
   margin-top: 1em;
   text-align: center; }

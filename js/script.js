@@ -9,3 +9,9 @@ $(".navIcon").click(function(){
 $(".navIcon").click(function(){
 	navIcon.classList.toggle("change");
 });
+
+$('.scrollDownBtn').click(function(){
+	$('html, body').animate({
+		scrollTop: $(".featured").offset().top
+	}, 3000);
+});
