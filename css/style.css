@@ -102,12 +102,15 @@
 .opacOverlay {
   background-color: white;
   height: 100vh;
-  width: 100vw;
-  opacity: 0.3; }
+  opacity: 0.3;
+  width: 100vw; }
+
+.landWrapper {
+  display: none; }
 
 .mainlogo {
-  margin: 0 auto;
-  display: inherit; }
+  display: inherit;
+  margin: 0 auto; }
 
 .roleText {
   font-family: "Quicksand", sans-serif;
@@ -121,7 +124,31 @@
   cursor: pointer;
   font-size: 1.5em;
   margin-top: 1em;
-  text-align: center; }
+  text-align: center;
+  animation: bounceArrow 1s infinite alternate;
+  -webkit-animation: bounceArrow 1s infinite alternate;
+  -moz-animation: bounceArrow 1s infinite alternate; }
+
+@keyframes bounceArrow {
+  from {
+    transform: translateY(0px); }
+
+  to {
+    transform: translateY(-15px); } }
+
+@-webkit-keyframes bounceArrow {
+  from {
+    transform: translateY(0px); }
+
+  to {
+    transform: translateY(-15px); } }
+
+@-moz-keyframes bounceArrow {
+  from {
+    transform: translateY(0px); }
+
+  to {
+    transform: translateY(-15px); } }
 
 .latestProjSec {
   background-image: url("../img/travelCompanion.png");
@@ -159,7 +186,13 @@
   text-align: center;
   text-shadow: -2px 2px #f2c8bc;
   text-transform: uppercase;
+  transition: 0.2s;
   width: 62vw; }
+
+.featureBtn:hover {
+  border-color: white;
+  color: white;
+  text-decoration: none; }
 
 .mainHeader {
   color: #1b1b1b;
