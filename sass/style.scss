@@ -31,6 +31,26 @@ $h2FontFamily: 'Oswald', sans-serif;
 	box-sizing: border-box;
 }
 
+// LOADER ------------------------------------------------------------------
+
+.loader {
+	align-items: center;
+	background-color: white;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	left: 0px;
+	position: fixed;
+	top: 0px;
+	width: 100vw;
+	z-index: 9999;
+}
+
+.fa-circle-notch {
+	color: $primaryColor;
+	font-size: 7em;
+}
+
 // NAVIGATION ------------------------------------------------------------------
 
 .nav {
@@ -288,7 +308,7 @@ $h2FontFamily: 'Oswald', sans-serif;
 		text-align: center;
 	 	margin-bottom: 0.4em;
 		.socialLink {
-			color: #656B75;
+			color: $secondaryColor;
 			font-size: 1.1em;
 			padding: 0 0.3em;
 		}
@@ -299,4 +319,8 @@ $h2FontFamily: 'Oswald', sans-serif;
 		text-align: center;
 		text-transform: uppercase;
 	}
+}
+
+.socialLink:visited, .socialLink:hover {
+	color: $secondaryColor;
 }

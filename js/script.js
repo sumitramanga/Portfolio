@@ -1,21 +1,18 @@
 (function(){
 
 	$(window).load(function(){
-
+		$(".loader").fadeOut();
   	});
 
-	$(document).ready(function (){
+	$(document).ready(function(){
 
-		$(".projMenuItem").click(function(){
-			$(".dropDownProjects").toggle();
-		});
-
-		$(".navIcon").click(function(){
-			$(".menuWrapper").toggle();
-		});
-
+		// Toggling menu via slide method
 		$(".navIcon").click(function(){
 			navIcon.classList.toggle("change");
+			$(".menuWrapper").slideToggle(400);
+		});
+		$(".projMenuItem").click(function(){
+			$(".dropDownProjects").slideToggle(400);
 		});
 
 		$('.scrollDownBtn').click(function(){
@@ -24,14 +21,8 @@
 			}, 2500);
 		});
 
-		$(".landWrapper").fadeIn(2500);
-		console.log('working');
-
-		// var duration = anime({
-		//   targets: '#duration .el',
-		//   translateY: -50,
-		//   duration: 3000
-		// });
+		// Fade in landing screen content
+		$(".landWrapper").delay(600).fadeIn(2500);
 
 	});
 

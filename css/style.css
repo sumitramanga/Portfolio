@@ -9,6 +9,22 @@
   margin: 0;
   box-sizing: border-box; }
 
+.loader {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  z-index: 9999; }
+
+.fa-circle-notch {
+  color: #f2c8bc;
+  font-size: 7em; }
+
 .nav {
   position: fixed;
   width: 100vw;
@@ -221,7 +237,7 @@
     text-align: center;
     margin-bottom: 0.4em; }
     .footer .socialIcons .socialLink {
-      color: #656B75;
+      color: #656b75;
       font-size: 1.1em;
       padding: 0 0.3em; }
   .footer .copyright {
@@ -229,3 +245,6 @@
     font-size: 0.7em;
     text-align: center;
     text-transform: uppercase; }
+
+.socialLink:visited, .socialLink:hover {
+  color: #656b75; }
