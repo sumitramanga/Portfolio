@@ -194,7 +194,6 @@
 
 .featureBtn {
   border-style: solid;
-  display: block;
   font-family: "Oswald", sans-serif;
   font-weight: 600;
   margin: 0 auto;
@@ -278,7 +277,6 @@
 
 .goToBtn {
   border-style: solid;
-  display: block;
   font-family: "Oswald", sans-serif;
   font-weight: 600;
   margin: 0 auto;
@@ -296,3 +294,16 @@
   color: white;
   text-decoration: none;
   background-color: #656b75; }
+
+.projectCarasoul {
+  width: 270px;
+  height: 270px;
+  background-color: pink; }
+
+.projTitle {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 1em; }
+
+.projBtn {
+  display: inline; }
