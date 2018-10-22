@@ -10,6 +10,7 @@
 $primaryColor: #F2C8BC;
 $secondaryColor: #656B75;
 $tertiaryColor:	#1B1B1B;
+
 $bodyFontFamily: 'Quicksand', sans-serif;
 $h1FontFamily: "Wreath", cursive;
 $h2FontFamily: 'Oswald', sans-serif;
@@ -18,6 +19,19 @@ $h2FontFamily: 'Oswald', sans-serif;
 	background-position: center;
 	background-size: cover;
 	height: 36vh;
+}
+
+@mixin btn {
+	border-style: solid;
+	display: block;
+	font-family: $h2FontFamily;
+	font-weight: 600;
+	margin: 0 auto;
+	padding: 1em;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.2s;
+	width: 62vw;
 }
 
 
@@ -256,18 +270,12 @@ $h2FontFamily: 'Oswald', sans-serif;
 
 
 .featureBtn {
-	border: 3px solid $tertiaryColor;
+	@include btn;
+	border-width: 3px;
 	color: $tertiaryColor;
 	display: block;
-	font-family: $h2FontFamily;
-	font-weight: 600;
-	margin: 0 auto;
-	padding: 1em;
-	text-align: center;
+	border-color: $tertiaryColor;
 	text-shadow: -2px 2px $primaryColor;
-	text-transform: uppercase;
-	transition: 0.2s;
-	width: 62vw;
 }
 
 .featureBtn:hover {
@@ -281,7 +289,7 @@ $h2FontFamily: 'Oswald', sans-serif;
 	color: $tertiaryColor;
 	font-family: "Wreath Halft One Regular", cursive;
 	font-size: 3.3em;
-	line-height: 0.4;
+	line-height: 1.6;
 	margin-top: 1em;
 	text-align: center;
 }
@@ -329,8 +337,44 @@ $h2FontFamily: 'Oswald', sans-serif;
 
 // MY STORY PAGE ---------------------------------------------------------------
 
-.header {
+.container {
+	padding: 0 25px;
+}
+
+.mainMargin {
+	margin-top: 6em;
+}
+
+.myStoryHeader {
 	background-color: $primaryColor;
+	height: 20vh;
+	padding-top: 35px;
+}
 
+.myStoryImg {
+	background-image: url('../img/beach-walking.jpeg');
+	background-position: center;
+	background-size: cover;
+	height: 48vh;
+	margin: 1.5em 0;
+}
 
+.desc {
+	font-size: 0.8em;
+	font-family: 'Quicksand', sans-serif;
+	margin-bottom: 2em;
+}
+
+.goToBtn {
+	@include btn;
+	border-color: $secondaryColor;
+	border-width: 2px;
+	color: $secondaryColor;
+	font-size: 0.8em;
+}
+
+.goToBtn:hover {
+	color: white;
+	text-decoration: none;
+	background-color: #656b75;
 }

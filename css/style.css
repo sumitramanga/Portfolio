@@ -193,18 +193,21 @@
   margin: 1em 0; }
 
 .featureBtn {
-  border: 3px solid #1b1b1b;
-  color: #1b1b1b;
+  border-style: solid;
   display: block;
   font-family: "Oswald", sans-serif;
   font-weight: 600;
   margin: 0 auto;
   padding: 1em;
   text-align: center;
-  text-shadow: -2px 2px #f2c8bc;
   text-transform: uppercase;
   transition: 0.2s;
-  width: 62vw; }
+  width: 62vw;
+  border-width: 3px;
+  color: #1b1b1b;
+  display: block;
+  border-color: #1b1b1b;
+  text-shadow: -2px 2px #f2c8bc; }
 
 .featureBtn:hover {
   border-color: white;
@@ -215,7 +218,7 @@
   color: #1b1b1b;
   font-family: "Wreath Halft One Regular", cursive;
   font-size: 3.3em;
-  line-height: 0.4;
+  line-height: 1.6;
   margin-top: 1em;
   text-align: center; }
 
@@ -250,5 +253,46 @@
 .socialLink:visited, .socialLink:hover {
   color: #656b75; }
 
-.header {
-  background-color: #f2c8bc; }
+.container {
+  padding: 0 25px; }
+
+.mainMargin {
+  margin-top: 6em; }
+
+.myStoryHeader {
+  background-color: #f2c8bc;
+  height: 20vh;
+  padding-top: 35px; }
+
+.myStoryImg {
+  background-image: url("../img/beach-walking.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 48vh;
+  margin: 1.5em 0; }
+
+.desc {
+  font-size: 0.8em;
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 2em; }
+
+.goToBtn {
+  border-style: solid;
+  display: block;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  margin: 0 auto;
+  padding: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.2s;
+  width: 62vw;
+  border-color: #656b75;
+  border-width: 2px;
+  color: #656b75;
+  font-size: 0.8em; }
+
+.goToBtn:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #656b75; }
