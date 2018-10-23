@@ -27,7 +27,6 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	font-family: $h2FontFamily;
 	font-weight: 600;
 	margin: 0 auto;
-	padding: 13px;
 	text-align: center;
 	text-transform: uppercase;
 	transition: 0.2s;
@@ -274,6 +273,7 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	border-width: 3px;
 	color: $tertiaryColor;
 	display: block;
+	padding: 13px;
 	text-shadow: -2px 2px $primaryColor;
 	width: 62vw;
 }
@@ -371,6 +371,7 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	border-width: 2px;
 	color: $secondaryColor;
 	font-size: 0.8em;
+	padding: 13px;
 }
 
 .goToBtn:hover {
@@ -403,7 +404,12 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	font-size: 1em;
 }
 
-#seeItLiveBtn {
+.seeItLiveBtn {
 	border-left-width: 0;
-	padding: 1em 3em;
+	padding: 13px 33px;
 }
+
+// #seeItLiveBtn {
+// 	border-left-width: 0;
+// 	padding: 13px 33px;
+// }
