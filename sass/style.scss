@@ -394,14 +394,15 @@ $h3FontFamily:	'Quicksand', sans-serif;
 }
 
 .projDesc {
+	margin-bottom: 2.5em;
 	margin-top: 2em;
-    margin-bottom: 2.5em;
 }
 
 .projTitle {
 	font-family: $h3FontFamily;
 	font-weight: 600;
 	font-size: 1em;
+	text-transform: uppercase;
 }
 
 .seeItLiveBtnBord {
