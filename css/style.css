@@ -197,16 +197,16 @@
   font-family: "Oswald", sans-serif;
   font-weight: 600;
   margin: 0 auto;
-  padding: 1em;
+  padding: 13px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.2s;
-  width: 62vw;
+  border-color: #1b1b1b;
   border-width: 3px;
   color: #1b1b1b;
   display: block;
-  border-color: #1b1b1b;
-  text-shadow: -2px 2px #f2c8bc; }
+  text-shadow: -2px 2px #f2c8bc;
+  width: 62vw; }
 
 .featureBtn:hover {
   border-color: white;
@@ -280,11 +280,10 @@
   font-family: "Oswald", sans-serif;
   font-weight: 600;
   margin: 0 auto;
-  padding: 1em;
+  padding: 13px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.2s;
-  width: 62vw;
   border-color: #656b75;
   border-width: 2px;
   color: #656b75;
@@ -294,6 +293,10 @@
   color: white;
   text-decoration: none;
   background-color: #656b75; }
+
+.myStoryBtn {
+  width: 62vw;
+  display: block; }
 
 .projectCarasoul {
   width: 270px;
@@ -305,5 +308,5 @@
   font-weight: 600;
   font-size: 1em; }
 
-.projBtn {
-  display: inline; }
+#seeItLiveBtn {
+  padding: 1em 3em; }

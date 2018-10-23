@@ -27,11 +27,10 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	font-family: $h2FontFamily;
 	font-weight: 600;
 	margin: 0 auto;
-	padding: 1em;
+	padding: 13px;
 	text-align: center;
 	text-transform: uppercase;
 	transition: 0.2s;
-	width: 62vw;
 }
 
 
@@ -271,11 +270,12 @@ $h3FontFamily:	'Quicksand', sans-serif;
 
 .featureBtn {
 	@include btn;
+	border-color: $tertiaryColor;
 	border-width: 3px;
 	color: $tertiaryColor;
 	display: block;
-	border-color: $tertiaryColor;
 	text-shadow: -2px 2px $primaryColor;
+	width: 62vw;
 }
 
 .featureBtn:hover {
@@ -379,6 +379,11 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	background-color: #656b75;
 }
 
+.myStoryBtn {
+	width: 62vw;
+	display: block;
+}
+
 //WEB --------------------------------------------------------------------------
 
 .projectCarasoul {
@@ -393,6 +398,6 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	font-size: 1em;
 }
 
-.projBtn {
-	display: inline;
+#seeItLiveBtn {
+	padding: 1em 3em;
 }
