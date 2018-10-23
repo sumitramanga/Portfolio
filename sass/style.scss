@@ -404,12 +404,14 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	font-size: 1em;
 }
 
-.seeItLiveBtn {
+.seeItLiveBtnBord {
 	border-left-width: 0;
-	padding: 13px 33px;
 }
 
-// #seeItLiveBtn {
-// 	border-left-width: 0;
-// 	padding: 13px 33px;
-// }
+.projMargin {
+	margin-top: 3.5em;
+}
+
+.seeItLiveBtnPad {
+	padding: 13px 33px;
+}

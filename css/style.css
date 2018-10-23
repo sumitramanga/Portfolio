@@ -197,7 +197,6 @@
   font-family: "Oswald", sans-serif;
   font-weight: 600;
   margin: 0 auto;
-  padding: 13px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.2s;
@@ -205,6 +204,7 @@
   border-width: 3px;
   color: #1b1b1b;
   display: block;
+  padding: 13px;
   text-shadow: -2px 2px #f2c8bc;
   width: 62vw; }
 
@@ -280,14 +280,14 @@
   font-family: "Oswald", sans-serif;
   font-weight: 600;
   margin: 0 auto;
-  padding: 13px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.2s;
   border-color: #656b75;
   border-width: 2px;
   color: #656b75;
-  font-size: 0.8em; }
+  font-size: 0.8em;
+  padding: 13px; }
 
 .goToBtn:hover {
   color: white;
@@ -312,6 +312,11 @@
   font-weight: 600;
   font-size: 1em; }
 
-#seeItLiveBtn {
-  border-left-width: 0;
-  padding: 1em 3em; }
+.seeItLiveBtnBord {
+  border-left-width: 0; }
+
+.projMargin {
+  margin-top: 3.5em; }
+
+.seeItLiveBtnPad {
+  padding: 13px 33px; }
