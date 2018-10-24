@@ -258,7 +258,7 @@
 .mainMargin {
   margin-top: 6em; }
 
-.myStoryHeader {
+.projMainHeader {
   background-color: #f2c8bc;
   height: 20vh;
   padding-top: 35px; }
@@ -321,3 +321,7 @@
 
 .seeItLiveBtnPad {
   padding: 13px 33px; }
+
+.swiper-container {
+  width: 85vw;
+  height: 33vh; }

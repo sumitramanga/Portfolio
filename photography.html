@@ -12,6 +12,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,600|Quicksand:300,400,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/swiper.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -63,13 +64,28 @@
 		</div>
 
 		<div class="project1">
-			<div class="projectCarasoul"></div>
+			<div class="swiper-container">
+
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="img/travelCompanion.png" alt="mockup" width="250"></div>
+					<div class="swiper-slide"><img src="img/beach-walking.jpeg" alt="beach" width="250"></div>
+				</div>
+
+				<!-- If we need pagination -->
+				<!-- <div class="swiper-pagination"></div> -->
+
+				<!-- If we need navigation buttons -->
+				<!-- <div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div> -->
+
+			</div>
+
 			<div class="projDesc">
 				<h3 class="projTitle">The Chocolate Story</h3>
 			</div>
 		</div>
 
-		<div class="project2 projMargin">
+		<!-- <div class="project2 projMargin">
 			<div class="projectCarasoul"></div>
 			<div class="projDesc">
 				<h3 class="projTitle">Wellington Botanical Society</h3>
@@ -86,7 +102,7 @@
 			<div class="col-md- projBtn">
 				<a href="https://www.instagram.com/sumitramanga/" class="goToBtn" target="_blank">Check Out Other Graphic Projects</a>
 			</div>
-		</div>
+		</div> -->
 	</div>
 
 	<div class="footer">
@@ -100,6 +116,7 @@
 	</div>
 
 	<script src="js/jquery.min.js"></script>
+	<script src="js/swiper.min.js"></script>
 	<script src="js/anime.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
