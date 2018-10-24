@@ -323,5 +323,9 @@
   padding: 13px 33px; }
 
 .swiper-container {
-  width: 85vw;
-  height: 33vh; }
+  width: 85vw; }
+
+.carouselImg {
+  width: 88vw;
+  max-width: 500px;
+  max-height: 500px; }
