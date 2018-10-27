@@ -275,15 +275,17 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	display: block;
 	padding: 13px;
 	text-shadow: -2px 2px $primaryColor;
+}
+
+.homeFeatBtn {
 	width: 62vw;
 }
 
-.featureBtn:hover {
+.homeFeatBtn:hover {
 	border-color: white;
 	color: white;
 	text-decoration: none;
 }
-
 
 .mainHeader {
 	color: $tertiaryColor;
@@ -429,4 +431,15 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	width: 100%;
 	max-width: 500px;
 	// max-height: 500px;
+}
+
+// PHOTOGRAPHY -----------------------------------------------------------------
+
+.pgFeatBtn {
+	width: 100vw;
+}
+
+.pgFeatBtn:hover {
+	color: white;
+	text-decoration: none;
 }

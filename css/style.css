@@ -205,10 +205,12 @@
   color: #1b1b1b;
   display: block;
   padding: 13px;
-  text-shadow: -2px 2px #f2c8bc;
+  text-shadow: -2px 2px #f2c8bc; }
+
+.homeFeatBtn {
   width: 62vw; }
 
-.featureBtn:hover {
+.homeFeatBtn:hover {
   border-color: white;
   color: white;
   text-decoration: none; }
@@ -329,3 +331,10 @@
 .carouselImg {
   width: 100%;
   max-width: 500px; }
+
+.pgFeatBtn {
+  width: 100vw; }
+
+.pgFeatBtn:hover {
+  color: white;
+  text-decoration: none; }

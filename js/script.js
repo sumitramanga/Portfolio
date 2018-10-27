@@ -11,6 +11,7 @@
 			navIcon.classList.toggle("change");
 			$(".menuWrapper").slideToggle(400);
 		});
+
 		$(".projMenuItem").click(function(){
 			$(".dropDownProjects").slideToggle(400);
 		});
@@ -46,6 +47,17 @@
 			}
 	  	});
 
-	}); // doc ready ends
+		$(".tcsTitle").click(function() {
+			$(".tcsContent").slideToggle(400);
+		});
 
+		$(".wbsTitle").click(function() {
+			$(".wbsContent").slideToggle(400);
+		});
+
+		$(".tePapaTitle").click(function() {
+			$(".tePapaContent").slideToggle(400);
+		});
+
+	}); // doc ready ends
 }()); // IIFE Ends
