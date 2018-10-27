@@ -168,7 +168,7 @@
     transform: translateY(-15px); } }
 
 .latestProjSec {
-  background-image: url("../img/travelCompanion.png");
+  background-image: url("../img/travelCompanion/travelCompanion.png");
   background-position: center;
   background-size: cover;
   height: 36vh; }
