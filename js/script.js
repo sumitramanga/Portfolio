@@ -55,8 +55,8 @@
 			$(".wbsContent").slideToggle(400);
 		});
 
-		$(".tePapaTitle").click(function() {
-			$(".tePapaContent").slideToggle(400);
+		$(".fhTitle").click(function() {
+			$(".fhContent").slideToggle(400);
 		});
 
 	}); // doc ready ends

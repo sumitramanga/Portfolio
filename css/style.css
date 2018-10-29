@@ -38,7 +38,7 @@
   width: 100%; }
 
 .navlogo {
-  background-image: url("../img/logo.png");
+  background-image: url("../assets/logo.png");
   background-position: center;
   background-size: cover;
   float: right;
@@ -107,7 +107,7 @@
 
 .mainBgImg {
   background-attachment: fixed;
-  background-image: url("../img/plant-by-chua-bing-quan.jpg");
+  background-image: url("../assets/plant-by-chua-bing-quan.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -168,19 +168,19 @@
     transform: translateY(-15px); } }
 
 .latestProjSec {
-  background-image: url("../img/travelCompanion/travelCompanion.png");
+  background-image: url("../assets/travelCompanion/mockUpiPad.png");
   background-position: center;
   background-size: cover;
   height: 36vh; }
 
 .myStorySec {
-  background-image: url("../img/beach-car-lookout.jpg");
+  background-image: url("../assets/beach-car-lookout.jpg");
   background-position: center;
   background-size: cover;
   height: 36vh; }
 
 .contactSec {
-  background-image: url("../img/desk.jpeg");
+  background-image: url("../assets/desk.jpeg");
   background-position: center;
   background-size: cover;
   height: 36vh; }
@@ -266,7 +266,7 @@
   padding-top: 35px; }
 
 .myStoryImg {
-  background-image: url("../img/beach-walking.jpeg");
+  background-image: url("../assets/beach-walking.jpeg");
   background-position: center;
   background-size: cover;
   height: 48vh;
@@ -338,3 +338,11 @@
 .pgFeatBtn:hover {
   color: white;
   text-decoration: none; }
+
+.tcsContent, .wbsContent, .fhContent {
+  display: none;
+  text-align: center; }
+
+.photographyImg {
+  width: 100%;
+  max-width: 500px; }
