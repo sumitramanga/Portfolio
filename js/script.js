@@ -1,5 +1,9 @@
 (function(){
 
+	var tcsContent = document.getElementById("tcsContent");
+	var wbsContent = document.getElementById("wbsContent");
+	var fhContent = document.getElementById("fhContent");
+
 	$(window).load(function(){
 		$(".loader").fadeOut();
   	});
@@ -49,15 +53,25 @@
 
 		$(".tcsTitle").click(function() {
 			$(".tcsContent").slideToggle(400);
+			tcsContent.style.display = "flex";
+			wbsContent.style.display = "none";
+			fhContent.style.display = "none";
 		});
 
 		$(".wbsTitle").click(function() {
 			$(".wbsContent").slideToggle(400);
+			wbsContent.style.display = "flex";
+			tcsContent.style.display = "none";
+			fhContent.style.display = "none";
 		});
 
 		$(".fhTitle").click(function() {
 			$(".fhContent").slideToggle(400);
+			fhContent.style.display = "flex";
+			wbsContent.style.display = "none";
+			tcsContent.style.display = "none";
 		});
 
 	}); // doc ready ends
+
 }()); // IIFE Ends

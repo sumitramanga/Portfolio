@@ -340,8 +340,7 @@
   text-decoration: none; }
 
 .tcsContent, .wbsContent, .fhContent {
-  display: none;
-  text-align: center; }
+  display: none; }
 
 .photographyImg {
   margin: 0.5em 0;
