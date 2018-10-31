@@ -262,7 +262,7 @@
 
 .projMainHeader {
   background-color: #f2c8bc;
-  height: 20vh;
+  height: 2.1em;
   padding-top: 35px; }
 
 .myStoryImg {
@@ -343,6 +343,6 @@
   display: none; }
 
 .photographyImg {
-  margin: 0.5em 0.3em;
-  max-width: 350px;
+  margin: 0.5em 0;
+  max-width: 268px;
   width: 100%; }
