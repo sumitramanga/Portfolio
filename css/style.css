@@ -38,12 +38,13 @@
   width: 100%; }
 
 .navlogo {
-  background-image: url("../assets/logo.png");
+  background-image: url("../assets/sm-logo-white.png");
   background-position: center;
   background-size: cover;
   float: right;
-  height: 30px;
-  width: 33px; }
+  height: 26px;
+  margin-top: 4px;
+  width: 40px; }
 
 .menuWrapper {
   background-color: white;
