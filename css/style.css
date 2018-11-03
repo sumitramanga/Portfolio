@@ -33,7 +33,7 @@
 
 .navBar {
   background-color: #f2c8bc;
-  /* opacity:0.2;  */
+  box-shadow: 0px -8px 30px #1B1B1B;
   padding: 0.7em 1.2em;
   width: 100%; }
 
@@ -126,9 +126,11 @@
 .landWrapper {
   display: none; }
 
-.mainlogo {
+.mainLogo {
   display: inherit;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 196px;
+  text-align: center; }
 
 .roleText {
   font-family: "Quicksand", sans-serif;
@@ -219,10 +221,18 @@
 .mainHeader {
   color: #1b1b1b;
   font-family: "Wreath Halft One Regular", cursive;
+  text-align: center;
   font-size: 3.3em;
-  line-height: 1.6;
   margin-top: 1em;
-  text-align: center; }
+  line-height: 1.6; }
+
+.instaHeader {
+  color: #1b1b1b;
+  font-family: "Wreath Halft One Regular", cursive;
+  text-align: center;
+  font-size: 3.9em;
+  margin-top: 1.5em;
+  line-height: 0.6; }
 
 .hr {
   border-top: 1px solid #f2c8bc;
@@ -351,3 +361,38 @@
   max-width: 373px;
   min-width: 268px;
   width: 90%; }
+
+@media only screen and (min-width: 600px) {
+  .mainBgImg {
+    height: 50vh; }
+
+  .landWrapper {
+    margin-top: 2.5em; }
+
+  .roleText {
+    font-size: 1.5em; }
+
+  .mainLogo {
+    width: 250px; }
+
+  .scrollDownBtn {
+    font-size: 2.2em; }
+
+  .homeFeatBtn {
+    max-width: 257px; }
+
+  .latestProjSec, .myStorySec, .contactSec {
+    height: 22vh;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto; }
+
+  .featured {
+    margin-top: 1em; }
+
+  .hr {
+    width: 48%; }
+
+  .instaHeader {
+    font-size: 3.9em;
+    line-height: 1.0; } }

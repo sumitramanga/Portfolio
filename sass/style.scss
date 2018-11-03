@@ -32,6 +32,14 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	transition: 0.2s;
 }
 
+@mixin mainHeader($fontProp, $marginProp, $lineHightProp) {
+	color: $tertiaryColor;
+	font-family: "Wreath Halft One Regular", cursive;
+	text-align: center;
+	font-size: $fontProp;
+	margin-top: $marginProp;
+	line-height: $lineHightProp;
+}
 
 // h1 = script
 // h2 = oswald
@@ -74,7 +82,7 @@ $h3FontFamily:	'Quicksand', sans-serif;
 
 .navBar {
 	background-color: $primaryColor;
-	/* opacity:0.2;  */
+	box-shadow: 0px -8px 30px #1B1B1B;
 	padding: 0.7em 1.2em;
 	width: 100%;
 }
@@ -191,9 +199,11 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	display: none;
 }
 
-.mainlogo {
+.mainLogo {
 	display: inherit;
 	margin: 0 auto;
+	width: 196px;
+	text-align: center;
 }
 
 .roleText {
@@ -289,12 +299,11 @@ $h3FontFamily:	'Quicksand', sans-serif;
 }
 
 .mainHeader {
-	color: $tertiaryColor;
-	font-family: "Wreath Halft One Regular", cursive;
-	font-size: 3.3em;
-	line-height: 1.6;
-	margin-top: 1em;
-	text-align: center;
+	@include mainHeader(3.3em, 1em, 1.6);
+}
+
+.instaHeader {
+	@include mainHeader(3.9em, 1.5em, 0.6);
 }
 
 .hr {
@@ -425,9 +434,6 @@ $h3FontFamily:	'Quicksand', sans-serif;
     height: 33vh;
 }
 
-// width270px
-// height187px
-
 .carouselImg {
 	width: 100%;
 	max-width: 500px;
@@ -454,11 +460,58 @@ $h3FontFamily:	'Quicksand', sans-serif;
 }
 
 .photographyImg {
-	// margin: 0.5em 0;
-	// max-width: 268px;
-	// width: 100%;
 	margin: 0.5em auto;
 	max-width: 373px;
 	min-width: 268px;
 	width: 90%;
+}
+
+@media only screen and (min-width: 600px) {
+	.mainBgImg {
+		height: 50vh;
+	}
+
+	.landWrapper {
+		margin-top: 2.5em;
+	}
+
+	.roleText {
+		font-size:	1.5em;
+	}
+
+	.mainLogo {
+		width: 250px;
+	}
+
+	.scrollDownBtn {
+		font-size: 2.2em;
+	}
+
+	.homeFeatBtn {
+		max-width:257px;
+	}
+
+	.latestProjSec, .myStorySec, .contactSec {
+		 height: 22vh;
+		 max-width: 300px;
+		 width:  100%;
+		 margin: 0 auto;
+	 }
+
+	 .featured {
+	     margin-top: 1em;
+	 }
+
+	 // .contactSec {
+		//  margin: 0 auto;
+	 // }
+
+	 .hr {
+		  width: 48%;
+	 }
+
+	 .instaHeader {
+		 font-size: 3.9em;
+		 line-height: 1.0;
+	 }
 }
