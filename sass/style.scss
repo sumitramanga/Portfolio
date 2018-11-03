@@ -476,7 +476,7 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	}
 
 	.roleText {
-		font-size:	1.5em;
+		font-size: 1.5em;
 	}
 
 	.mainLogo {
@@ -488,23 +488,19 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	}
 
 	.homeFeatBtn {
-		max-width:257px;
+		max-width: 257px;
 	}
 
 	.latestProjSec, .myStorySec, .contactSec {
 		 height: 22vh;
+		  margin: 0 auto;
 		 max-width: 300px;
 		 width:  100%;
-		 margin: 0 auto;
 	 }
 
 	 .featured {
 	     margin-top: 1em;
 	 }
-
-	 // .contactSec {
-		//  margin: 0 auto;
-	 // }
 
 	 .hr {
 		  width: 48%;
@@ -514,4 +510,55 @@ $h3FontFamily:	'Quicksand', sans-serif;
 		 font-size: 3.9em;
 		 line-height: 1.0;
 	 }
+
+	 #projContainer {
+		 padding: 0 4em;
+	 }
+
+	 .swiper-container {
+		height: 100%;
+		max-height: 180px;
+		max-width: 271px;
+		// text-align: center;
+    	width: 100%;
+
+	}
+
+	.carouselImg {
+		margin: 0 auto;
+	}
+
+
+// Web & UX
+
+	.project1, .project2, .project3 {
+		margin-top: 3em;
+		overflow: auto;
+		overflow-x: hidden;
+	}
+
+	.project1 {
+		height: 298px;
+	}
+
+	.project2 {
+		height: 315px;
+	}
+
+	.project3 {
+		height: 354px;
+	}
+
+	.carouselCon {
+		float: left;
+	}
+
+	.projDets {
+		float: right;
+		width: 290px;
+
+		.projDesc {
+			margin-top: 0;
+		}
+	}
 }

@@ -383,9 +383,9 @@
 
   .latestProjSec, .myStorySec, .contactSec {
     height: 22vh;
+    margin: 0 auto;
     max-width: 300px;
-    width: 100%;
-    margin: 0 auto; }
+    width: 100%; }
 
   .featured {
     margin-top: 1em; }
@@ -395,4 +395,39 @@
 
   .instaHeader {
     font-size: 3.9em;
-    line-height: 1.0; } }
+    line-height: 1.0; }
+
+  #projContainer {
+    padding: 0 4em; }
+
+  .swiper-container {
+    height: 100%;
+    max-height: 180px;
+    max-width: 271px;
+    width: 100%; }
+
+  .carouselImg {
+    margin: 0 auto; }
+
+  .project1, .project2, .project3 {
+    margin-top: 3em;
+    overflow: auto;
+    overflow-x: hidden; }
+
+  .project1 {
+    height: 298px; }
+
+  .project2 {
+    height: 315px; }
+
+  .project3 {
+    height: 354px; }
+
+  .carouselCon {
+    float: left; }
+
+  .projDets {
+    float: right;
+    width: 290px; }
+    .projDets .projDesc {
+      margin-top: 0; } }
