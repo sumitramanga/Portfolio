@@ -370,7 +370,7 @@
     margin-top: 2.5em; }
 
   .roleText {
-    font-size: 1.5em; }
+    font-size: 1.2em; }
 
   .mainLogo {
     width: 250px; }
@@ -402,6 +402,9 @@
     margin-left: auto;
     margin-right: auto; }
 
+  .project1 {
+    margin-top: 2em; }
+
   #projContainer {
     padding: 0 4em; }
 
@@ -414,7 +417,11 @@
     margin: 0 auto; }
 
   .carouselImg {
-    margin: 0 auto; } }
+    margin: 0 auto; }
+
+  .graphBtn {
+    margin-top: 1em;
+    margin-bottom: 2em; } }
 @media only screen and (min-width: 1281px) {
   .project1, .project2, .project3 {
     margin-top: 3em;

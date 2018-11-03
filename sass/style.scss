@@ -476,7 +476,7 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	}
 
 	.roleText {
-		font-size: 1.5em;
+		font-size: 1.2em;
 	}
 
 	.mainLogo {
@@ -511,10 +511,16 @@ $h3FontFamily:	'Quicksand', sans-serif;
 		 line-height: 1.0;
 	 }
 
+// WEB & UX
+
 	 .projMainHeader {
 		 max-width: 7.777em;
 		 margin-left: auto;
 		 margin-right: auto;
+	 }
+
+	 .project1 {
+		 margin-top: 2em;
 	 }
 
 	 #projContainer {
@@ -534,6 +540,18 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	.carouselImg {
 		margin: 0 auto;
 	}
+
+	.graphBtn {
+	    margin-top: 1em;
+	    margin-bottom: 2em;
+	}
+
+
+	// .photogContainer {
+	// 	width: 412px;
+	// 	margin-left: auto;
+	// 	margin-right: auto;
+	// }
 }
 
 @media only screen and (min-width: 1281px){
