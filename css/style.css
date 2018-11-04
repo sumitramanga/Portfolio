@@ -33,7 +33,7 @@
 
 .navBar {
   background-color: #f2c8bc;
-  box-shadow: 0px -8px 30px #1B1B1B;
+  box-shadow: 0px -8px 30px #1b1b1b;
   padding: 0.7em 1.2em;
   width: 100%; }
 
@@ -71,7 +71,7 @@
   color: black; }
 
 .menuLink:hover, .projMenuItem:hover {
-  color: #656B75;
+  color: #656b75;
   text-decoration: none; }
 
 .menuLinkSel {
@@ -140,14 +140,14 @@
   width: 62%; }
 
 .scrollDownBtn {
+  animation: bounceArrow 1s infinite alternate;
+  -webkit-animation: bounceArrow 1s infinite alternate;
+  -moz-animation: bounceArrow 1s infinite alternate;
   color: #f2c8bc;
   cursor: pointer;
   font-size: 1.5em;
   margin-top: 1em;
-  text-align: center;
-  animation: bounceArrow 1s infinite alternate;
-  -webkit-animation: bounceArrow 1s infinite alternate;
-  -moz-animation: bounceArrow 1s infinite alternate; }
+  text-align: center; }
 
 @keyframes bounceArrow {
   from {
@@ -250,8 +250,8 @@
   padding: 0 1em;
   margin: 2.3em 0; }
   .footer .socialIcons {
-    text-align: center;
-    margin-bottom: 0.4em; }
+    margin-bottom: 0.4em;
+    text-align: center; }
     .footer .socialIcons .socialLink {
       color: #656b75;
       font-size: 1.1em;
@@ -304,17 +304,17 @@
 
 .goToBtn:hover {
   color: white;
-  text-decoration: none;
-  background-color: #656b75; }
+  background-color: #656b75;
+  text-decoration: none; }
 
 .myStoryBtn {
-  width: 62vw;
-  display: block; }
+  display: block;
+  width: 62vw; }
 
 .projectCarasoul {
-  width: 270px;
+  background-color: #f2c8bc;
   height: 270px;
-  background-color: pink; }
+  width: 270px; }
 
 .projDesc {
   margin-bottom: 2.5em;
@@ -322,8 +322,8 @@
 
 .projTitle {
   font-family: "Quicksand", sans-serif;
-  font-weight: 600;
   font-size: 1em;
+  font-weight: 600;
   text-transform: uppercase; }
 
 .seeItLiveBtnBord {
@@ -336,8 +336,8 @@
   padding: 13px 33px; }
 
 .swiper-container {
-  width: 85vw;
-  height: 33vh; }
+  height: 33vh;
+  width: 85vw; }
 
 .carouselImg {
   width: 100%;

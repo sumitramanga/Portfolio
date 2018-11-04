@@ -6,7 +6,7 @@
     font-style: normal;
 }
 
-//variables
+// Variables
 $primaryColor: #F2C8BC;
 $secondaryColor: #656B75;
 $tertiaryColor:	#1B1B1B;
@@ -40,10 +40,6 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	margin-top: $marginProp;
 	line-height: $lineHightProp;
 }
-
-// h1 = script
-// h2 = oswald
-// h3 = bold Quicksand
 
 * {
 	padding: 0;
@@ -82,7 +78,7 @@ $h3FontFamily:	'Quicksand', sans-serif;
 
 .navBar {
 	background-color: $primaryColor;
-	box-shadow: 0px -8px 30px #1B1B1B;
+	box-shadow: 0px -8px 30px $tertiaryColor;
 	padding: 0.7em 1.2em;
 	width: 100%;
 }
@@ -129,7 +125,7 @@ $h3FontFamily:	'Quicksand', sans-serif;
 }
 
 .menuLink:hover, .projMenuItem:hover {
-	color: #656B75;
+	color: $secondaryColor;
 	text-decoration: none;
 }
 
@@ -215,14 +211,14 @@ $h3FontFamily:	'Quicksand', sans-serif;
 }
 
 .scrollDownBtn {
+	animation: bounceArrow 1s infinite alternate;
+	-webkit-animation: bounceArrow 1s infinite alternate;
+	-moz-animation: bounceArrow 1s infinite alternate;
 	color: $primaryColor;
 	cursor: pointer;
 	font-size: 1.5em;
 	margin-top: 1em;
 	text-align: center;
-	animation: bounceArrow 1s infinite alternate;
- 	-webkit-animation: bounceArrow 1s infinite alternate;
-	-moz-animation: bounceArrow 1s infinite alternate;
 }
 
 // Animate bouncing down arrow
@@ -326,8 +322,8 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	padding: 0 1em;
 	margin: 2.3em 0;
 	.socialIcons {
+		margin-bottom: 0.4em;
 		text-align: center;
-	 	margin-bottom: 0.4em;
 		.socialLink {
 			color: $secondaryColor;
 			font-size: 1.1em;
@@ -388,21 +384,21 @@ $h3FontFamily:	'Quicksand', sans-serif;
 
 .goToBtn:hover {
 	color: white;
-	text-decoration: none;
 	background-color: #656b75;
+	text-decoration: none;
 }
 
 .myStoryBtn {
-	width: 62vw;
 	display: block;
+	width: 62vw;
 }
 
 //WEB --------------------------------------------------------------------------
 
 .projectCarasoul {
-	width: 270px;
+	background-color: $primaryColor;
 	height: 270px;
-	background-color: pink;
+	width: 270px;
 }
 
 .projDesc {
@@ -412,8 +408,8 @@ $h3FontFamily:	'Quicksand', sans-serif;
 
 .projTitle {
 	font-family: $h3FontFamily;
-	font-weight: 600;
 	font-size: 1em;
+	font-weight: 600;
 	text-transform: uppercase;
 }
 
@@ -430,14 +426,13 @@ $h3FontFamily:	'Quicksand', sans-serif;
 }
 
 .swiper-container {
+	height: 33vh;
 	width: 85vw;
-    height: 33vh;
 }
 
 .carouselImg {
 	width: 100%;
 	max-width: 500px;
-	// max-height: 500px;
 }
 
 // PHOTOGRAPHY -----------------------------------------------------------------
@@ -492,38 +487,38 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	}
 
 	.latestProjSec, .myStorySec, .contactSec {
-		 height: 22vh;
-		 margin: 0 auto;
-		 max-width: 300px;
-		 width:  100%;
-	 }
+		height: 22vh;
+		margin: 0 auto;
+		max-width: 300px;
+		width:  100%;
+	}
 
 	 .featured {
-	     margin-top: 1em;
+		margin-top: 1em;
 	 }
 
 	 .hr {
-		  width: 48%;
+		width: 48%;
 	 }
 
 	 .instaHeader {
-		 font-size: 3.9em;
-		 line-height: 1.0;
+		font-size: 3.9em;
+		line-height: 1.0;
 	 }
 
 // WEB & UX
 	 .projMainHeader {
-		 max-width: 7.777em;
-		 margin-left: auto;
-		 margin-right: auto;
+		max-width: 7.777em;
+		margin-left: auto;
+		margin-right: auto;
 	 }
 
 	 .project1 {
-		 margin-top: 2em;
+		margin-top: 2em;
 	 }
 
 	 #projContainer {
-		 padding: 0 4em;
+		padding: 0 4em;
 	 }
 
 	 .swiper-container {
