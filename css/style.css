@@ -416,11 +416,15 @@
     left: 0;
     margin: 0 auto; }
 
-  .desc {
-    padding: 0 4.9em;
-    margin-top: 2em; }
+  .descWrap {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    width: 442px; }
+    .descWrap .desc {
+      padding: 0; }
 
-  .myStorybtn {
+  .myStoryBtn {
     width: 33vw; }
 
   .projMainHeader {
