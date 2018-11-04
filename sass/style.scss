@@ -598,21 +598,27 @@ $h3FontFamily:	'Quicksand', sans-serif;
 
 // WEB & UX
 	.project1, .project2, .project3 {
+		margin-left: auto;
+		margin-right: auto;
 		margin-top: 3em;
 		overflow: auto;
 		overflow-x: hidden;
+		width: 791px;
+		background-color: white;
+	    box-shadow: 5px 9px 42px -8px #1B1B1B;
+	    padding: 27px;
 	}
 
 	.project1 {
-		height: 298px;
+		height: 349px;
 	}
 
 	.project2 {
-		height: 315px;
+		height: 367px;
 	}
 
 	.project3 {
-		height: 354px;
+		height: 405px;
 	}
 
 	.carouselCon {
