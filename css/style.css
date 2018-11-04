@@ -413,15 +413,24 @@
     width: 412px; }
 
   .projDets {
-    max-width: 409px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    max-width: 409px; }
 
   .carouselImg {
     margin: 0 auto; }
 
   .graphBtn {
-    margin-top: 1em;
-    margin-bottom: 2em; } }
+    margin-bottom: 2em;
+    margin-top: 1em; }
+
+  .photogContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 440px; }
+
+  .photographyImg {
+    max-width: 442px;
+    width: 93%; } }
 @media only screen and (min-width: 1281px) {
   .project1, .project2, .project3 {
     margin-top: 3em;

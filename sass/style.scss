@@ -493,7 +493,7 @@ $h3FontFamily:	'Quicksand', sans-serif;
 
 	.latestProjSec, .myStorySec, .contactSec {
 		 height: 22vh;
-		  margin: 0 auto;
+		 margin: 0 auto;
 		 max-width: 300px;
 		 width:  100%;
 	 }
@@ -512,7 +512,6 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	 }
 
 // WEB & UX
-
 	 .projMainHeader {
 		 max-width: 7.777em;
 		 margin-left: auto;
@@ -533,31 +532,36 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	}
 
 	.projDets {
-		max-width: 409px;
 		margin: 0 auto;
+		max-width: 409px;
 	}
 
 	.carouselImg {
 		margin: 0 auto;
 	}
 
+// GRAPHIC
 	.graphBtn {
+		margin-bottom: 2em;
 	    margin-top: 1em;
-	    margin-bottom: 2em;
 	}
 
+// PHOTOGRAPHY
+	.photogContainer {
+		margin-left: auto;
+		margin-right: auto;
+		width: 440px;
+	}
 
-	// .photogContainer {
-	// 	width: 412px;
-	// 	margin-left: auto;
-	// 	margin-right: auto;
-	// }
+	.photographyImg {
+		max-width: 442px;
+		width: 93%;
+	}
 }
 
 @media only screen and (min-width: 1281px){
 
-// Web & UX
-
+// WEB & UX
 	.project1, .project2, .project3 {
 		margin-top: 3em;
 		overflow: auto;
