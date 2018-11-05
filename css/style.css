@@ -462,16 +462,25 @@
     max-width: 442px;
     width: 93%; } }
 @media only screen and (min-width: 1281px) {
+  .featured {
+    height: 50vh;
+    padding-top: 6.7em; }
+
   .project1, .project2, .project3 {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3em;
-    overflow: auto;
-    overflow-x: hidden;
-    width: 791px;
     background-color: white;
     box-shadow: 5px 9px 42px -8px #1B1B1B;
-    padding: 27px; }
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    overflow-x: hidden;
+    padding: 27px;
+    width: 791px; }
+
+  .project2, .project3 {
+    margin-top: 4em; }
+
+  .project1 {
+    margin-top: 4em; }
 
   .project1 {
     height: 349px; }
@@ -489,4 +498,8 @@
     float: right;
     width: 290px; }
     .projDets .projDesc {
-      margin-top: 0; } }
+      margin-top: 0; }
+
+  .footer {
+    margin-bottom: 3em;
+    margin-top: 4.3em; } }
