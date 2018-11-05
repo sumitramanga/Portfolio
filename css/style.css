@@ -462,9 +462,27 @@
     max-width: 442px;
     width: 93%; } }
 @media only screen and (min-width: 1281px) {
+  .mainLogo {
+    width: 224px; }
+
+  .roleText {
+    font-size: 1.1em; }
+
   .featured {
     height: 50vh;
-    padding-top: 6.7em; }
+    margin-top: 0; }
+
+  .latestProjSec, .myStorySec, .contactSec {
+    height: 27vh;
+    max-width: none; }
+
+  .instaHeader {
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 0; }
+
+  .hr {
+    margin-top: 0; }
 
   .project1, .project2, .project3 {
     background-color: white;
@@ -493,6 +511,9 @@
 
   .carouselCon {
     float: left; }
+
+  .swiper-container {
+    height: 292px; }
 
   .projDets {
     float: right;
