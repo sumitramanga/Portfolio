@@ -3,6 +3,8 @@
 	var tcsContent = document.getElementById("tcsContent");
 	var wbsContent = document.getElementById("wbsContent");
 	var fhContent = document.getElementById("fhContent");
+	var projLi = document.getElementById("projLi");
+
 
 	$(window).load(function(){
 		$(".loader").fadeOut();
@@ -17,6 +19,9 @@
 		});
 
 		$(".projMenuItem").click(function(){
+			projLi.style.display = 'block';
+			projLi.style.paddingLeft = '1em';
+			projLi.style.paddingRight = '1em';
 			$(".dropDownProjects").slideToggle(400);
 		});
 
@@ -73,5 +78,5 @@
 		});
 
 	}); // doc ready ends
-
+console.dir(projLi);
 }()); // IIFE Ends

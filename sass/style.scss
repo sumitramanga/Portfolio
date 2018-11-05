@@ -597,6 +597,59 @@ $h3FontFamily:	'Quicksand', sans-serif;
 @media only screen and (min-width: 1281px){
 
 // HOME
+// NAV
+	.navBar {
+		display: none;
+	}
+
+	.menuWrapper {
+		display: block;
+		position: relative;
+		background-color: transparent;
+	}
+
+	.menuWrapper::before {
+	  content: "";
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	  opacity: 0.8;
+	  z-index: -1;
+	  background-color: white;
+	}
+
+	.menuList {
+		// height: 7vh;
+		text-align: right;
+		padding-top: 0.4em;
+		margin-bottom: 0.4em;
+	}
+
+	.menuItem {
+		display: inline-block;
+	}
+
+	// move this to a class as it dont work in other pages
+	#projLi {
+		padding: 0;
+		// disbling full width of drop down
+		// width: 11vw;
+		// margin: auto;
+		// background: white;
+		// margin: 0;
+	}
+
+	.dropDownProjects {
+		// background-color: white;
+	}
+
+	.innerMenu {
+		display: block;
+	}
+
+
 	.mainLogo {
 		width: 224px;
 	}
