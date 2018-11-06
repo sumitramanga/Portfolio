@@ -106,8 +106,11 @@ $h3FontFamily:	'Quicksand', sans-serif;
 		cursor: pointer;
 		font-family: 'Oswald', sans-serif;
 		list-style: none;
-		padding: 1em;
 		text-transform: uppercase;
+	}
+
+	.projectsMenuBtn, .menuItemPad {
+		padding: 1em;
 	}
 	.mainli {
 		font-weight: 600;
@@ -115,6 +118,12 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	.projMenuItem {
 		padding-bottom: 0;
 	}
+
+	.projectsMenuItems {
+		padding-left: 1em;
+		padding-top: 1em;
+	}
+
 	.ddIcon {
 		padding-left: 0.5em;
 	}
@@ -621,31 +630,33 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	}
 
 	.menuList {
-		// height: 7vh;
 		text-align: right;
-		padding-top: 0.4em;
-		margin-bottom: 0.4em;
+		padding-top: 0.2em;
+		margin-bottom: 0.2em;
+		.projectsMenuItems {
+			padding-top: 0;
+		}
 	}
 
 	.menuItem {
 		display: inline-block;
 	}
 
-	// move this to a class as it dont work in other pages
-	#projLi {
-		padding: 0;
-		// disbling full width of drop down
-		// width: 11vw;
-		// margin: auto;
-		// background: white;
-		// margin: 0;
+	.projMenuItem {
+		padding-right: 1em;
 	}
 
-	.dropDownProjects {
-		// background-color: white;
+
+	.styleSecMenu {
+		display: block;
+		padding-right: 1em;
 	}
 
 	.innerMenu {
+		display: block;
+	}
+
+	.projLi {
 		display: block;
 	}
 

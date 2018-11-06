@@ -19,10 +19,10 @@
 		});
 
 		$(".projMenuItem").click(function(){
-			projLi.style.display = 'block';
-			projLi.style.paddingLeft = '1em';
-			projLi.style.paddingRight = '1em';
-			$(".dropDownProjects").slideToggle(400);
+			// projLi.style.display = 'block';
+			// projLi.style.paddingRight = '1em';
+			$(".dropDownProjects").slideToggle(300);
+			$(".projLi").toggleClass("styleSecMenu");
 		});
 
 		$('.scrollDownBtn').click(function(){
@@ -78,5 +78,4 @@
 		});
 
 	}); // doc ready ends
-console.dir(projLi);
 }()); // IIFE Ends

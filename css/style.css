@@ -58,12 +58,16 @@
     cursor: pointer;
     font-family: 'Oswald', sans-serif;
     list-style: none;
-    padding: 1em;
     text-transform: uppercase; }
+  .menuList .projectsMenuBtn, .menuList .menuItemPad {
+    padding: 1em; }
   .menuList .mainli {
     font-weight: 600; }
   .menuList .projMenuItem {
     padding-bottom: 0; }
+  .menuList .projectsMenuItems {
+    padding-left: 1em;
+    padding-top: 1em; }
   .menuList .ddIcon {
     padding-left: 0.5em; }
 
@@ -483,16 +487,25 @@
 
   .menuList {
     text-align: right;
-    padding-top: 0.4em;
-    margin-bottom: 0.4em; }
+    padding-top: 0.2em;
+    margin-bottom: 0.2em; }
+    .menuList .projectsMenuItems {
+      padding-top: 0; }
 
   .menuItem {
     display: inline-block; }
 
-  #projLi {
-    padding: 0; }
+  .projMenuItem {
+    padding-right: 1em; }
+
+  .styleSecMenu {
+    display: block;
+    padding-right: 1em; }
 
   .innerMenu {
+    display: block; }
+
+  .projLi {
     display: block; }
 
   .mainLogo {
