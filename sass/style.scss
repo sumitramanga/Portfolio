@@ -140,6 +140,7 @@ $h3FontFamily:	'Quicksand', sans-serif;
 .menuLink:hover, .projMenuItem:hover, .menuLinkSel:hover {
 	color: $secondaryColor;
 	text-decoration: none;
+	transition: 0.2s;
 }
 
 .menuLinkSel {
@@ -708,8 +709,26 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	}
 
 // MY STORY
+	#myStoryPad {
+		padding: 0 90px;
+	}
+
+	.styleMyStory {
+		float: left;
+	}
+
+	.descWrap {
+		float: right;
+		margin-bottom: 18%;
+		margin-top: 6em;
+	}
+
+	.myStoryFooter {
+		clear: both;
+	}
+
 	.myStoryBtn {
-	    width: 14vw;
+	    width: 15vw;
 	}
 
 

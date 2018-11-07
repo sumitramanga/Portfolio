@@ -79,7 +79,8 @@
 
 .menuLink:hover, .projMenuItem:hover, .menuLinkSel:hover {
   color: #656b75;
-  text-decoration: none; }
+  text-decoration: none;
+  transition: 0.2s; }
 
 .menuLinkSel {
   color: #F2C8BC; }
@@ -544,8 +545,22 @@
   .hr {
     margin-top: 0; }
 
+  #myStoryPad {
+    padding: 0 90px; }
+
+  .styleMyStory {
+    float: left; }
+
+  .descWrap {
+    float: right;
+    margin-bottom: 18%;
+    margin-top: 6em; }
+
+  .myStoryFooter {
+    clear: both; }
+
   .myStoryBtn {
-    width: 14vw; }
+    width: 15vw; }
 
   .project1, .project2, .project3 {
     background-color: white;
