@@ -69,6 +69,10 @@ $h3FontFamily:	'Quicksand', sans-serif;
 
 // NAVIGATION ------------------------------------------------------------------
 
+.desktopLogo {
+	display: none;
+}
+
 .nav {
 	position: fixed;
 	top: 0;
@@ -133,7 +137,7 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	color: black;
 }
 
-.menuLink:hover, .projMenuItem:hover {
+.menuLink:hover, .projMenuItem:hover, .menuLinkSel:hover {
 	color: $secondaryColor;
 	text-decoration: none;
 }
@@ -471,6 +475,11 @@ $h3FontFamily:	'Quicksand', sans-serif;
 }
 
 @media only screen and (min-width: 600px) {
+
+	.desktopLogo {
+		display: none;
+	}
+
 	.mainBgImg {
 		height: 50vh;
 	}
@@ -607,6 +616,15 @@ $h3FontFamily:	'Quicksand', sans-serif;
 
 // HOME
 // NAV
+	.desktopLogo {
+		display: inline-block;
+		float: left;
+		padding: 0.2em 0.3em;
+	}
+
+	.desktopNavImg {
+		width: 54px;
+	}
 	.navBar {
 		display: none;
 	}

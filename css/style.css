@@ -25,6 +25,9 @@
   color: #f2c8bc;
   font-size: 7em; }
 
+.desktopLogo {
+  display: none; }
+
 .nav {
   position: fixed;
   top: 0;
@@ -74,7 +77,7 @@
 .menuLink {
   color: black; }
 
-.menuLink:hover, .projMenuItem:hover {
+.menuLink:hover, .projMenuItem:hover, .menuLinkSel:hover {
   color: #656b75;
   text-decoration: none; }
 
@@ -367,6 +370,9 @@
   width: 90%; }
 
 @media only screen and (min-width: 600px) {
+  .desktopLogo {
+    display: none; }
+
   .mainBgImg {
     height: 50vh; }
 
@@ -466,6 +472,14 @@
     max-width: 442px;
     width: 93%; } }
 @media only screen and (min-width: 1281px) {
+  .desktopLogo {
+    display: inline-block;
+    float: left;
+    padding: 0.2em 0.3em; }
+
+  .desktopNavImg {
+    width: 54px; }
+
   .navBar {
     display: none; }
 
