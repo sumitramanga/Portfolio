@@ -530,6 +530,9 @@
   .hr {
     margin-top: 0; }
 
+  .myStoryBtn {
+    width: 14vw; }
+
   .project1, .project2, .project3 {
     background-color: white;
     box-shadow: 5px 9px 42px -8px #1B1B1B;
@@ -546,13 +549,13 @@
   .project1 {
     margin-top: 4em; }
 
-  .project1 {
+  .wbsProj {
     height: 349px; }
 
-  .project2 {
+  .tcProj {
     height: 367px; }
 
-  .project3 {
+  .ocularProj {
     height: 405px; }
 
   .carouselCon {
@@ -569,4 +572,13 @@
 
   .footer {
     margin-bottom: 3em;
-    margin-top: 4.3em; } }
+    margin-top: 4.3em; }
+
+  .smsProj {
+    height: auto; }
+
+  .graphBtnContainer {
+    margin-top: 3em; }
+
+  #graphProjDesc {
+    margin: 5em 0; } }
