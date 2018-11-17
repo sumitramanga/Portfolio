@@ -610,4 +610,13 @@
     margin-top: 3em; }
 
   #graphProjDesc {
-    margin: 5em 0; } }
+    margin: 5em 0; }
+
+  .tcsContent {
+    max-height: 2024px; }
+
+  .wbsContent {
+    max-height: 1744px; }
+
+  .fhContent {
+    max-height: 2647px; } }
