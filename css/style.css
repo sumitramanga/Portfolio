@@ -308,7 +308,7 @@
   border-width: 2px;
   color: #656b75;
   font-size: 0.8em;
-  padding: 13px; }
+  padding: 13px 28px; }
 
 .goToBtn:hover {
   color: white;
@@ -582,10 +582,11 @@
     height: 349px; }
 
   .tcProj {
-    height: 367px; }
+    height: 374px; }
 
   .ocularProj {
-    height: 405px; }
+    overflow: hidden;
+    height: 414px; }
 
   .carouselCon {
     float: left; }

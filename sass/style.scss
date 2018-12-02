@@ -393,7 +393,7 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	border-width: 2px;
 	color: $secondaryColor;
 	font-size: 0.8em;
-	padding: 13px;
+	padding: 13px 28px;
 }
 
 .goToBtn:hover {
@@ -757,11 +757,12 @@ $h3FontFamily:	'Quicksand', sans-serif;
 	}
 
 	.tcProj {
-		height: 367px;
+		height: 374px;
 	}
 
 	.ocularProj {
-		height: 405px;
+		overflow: hidden;
+		height: 414px;
 	}
 
 	.carouselCon {
