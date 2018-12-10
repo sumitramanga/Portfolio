@@ -12,7 +12,6 @@
   ],
   "author": "Sumitra Manga",
   "license": "ISC",
-  
   "devDependencies": {
     "grunt": "^1.0.3",
     "grunt-contrib-csslint": "^2.0.0",
